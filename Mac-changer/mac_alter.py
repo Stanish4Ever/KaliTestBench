@@ -8,7 +8,7 @@ import optparse
 
 def get_args():
     bullet = optparse.OptionParser()
-    bullet.add_option("-i", "--interface", dest="interfc", help="Interface of which the MAC Address will change")
+    bullet.add_option("-i", "--interface", dest="interfc", help="Interface of which the mac Address will change")
     bullet.add_option("-m", "--mac", dest="mac_alter", help="The New MAC Address you want to set")
     return bullet.parse_args()
 # parser.error("[-] Please specify mac address/ interface.  ")
